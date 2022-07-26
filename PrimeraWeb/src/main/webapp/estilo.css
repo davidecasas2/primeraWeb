@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+form>div {
+ display: flex;
+ justify-content: space-between;
+ width: 220px;
+ margin-bottom: 5px;
+}
+header {
+ background-color: #73af55;
+}
+footer {
+ background-color: #515151;
+}
+footer, header {
+ height: 120px;
+ display: flex;
+ align-items: center;
+ padding-left: 50px;
+}
+h4 {
+ color: #73af55;
+}
+main {
+ width: 800px;
+ margin: 20px auto;
+ min-height: 400px;
+}

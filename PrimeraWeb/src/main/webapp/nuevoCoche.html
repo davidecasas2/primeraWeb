@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+</head>
+<body>
+<header>
+ <h1>UF2405-Modelo de programación web y bases de datos
+ </h1>
+ </header>
+ 
+ <main>
+    <h1>Introduce los datos del vehículo</h1>
+    <form action="nuevoCoche" method="get">
+        <div>
+            <label for="matricula">Matrícula:</label>
+            <input type="text" name="matricula" id="matricula">
+        </div>
+        <div>
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca">
+        </div>
+        <div>
+            <label for="modelo">Modelo:</label>
+            <input type="text" name="modelo" id="modelo">
+        </div>
+        <div>
+            <label for="potencia">Potencia(cv)</label>
+            <input type="number" name="potencia" id="potencia" 
+                   value="100" step=5 min="50" max="500">
+        </div>
+        
+        <div>
+            <label for="">Tipo</label>
+            <input type="radio" name="tipo" id="gasoil" value="gasoil">
+            <label for="gasoil">Gasoil</label>
+
+            <input type="radio" name="tipo" id="gasolina" value="gasolina">
+            <label for="gasolina">Gasolina</label>
+
+            <input type="radio" name="tipo" id="electrico" value="electrico">
+            <label for="electrico">Eléctrico</label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</main>
+ <footer>
+ <h4>UF2405-Modelo de programación web y bases de
+ datos</h4>
+ </footer>
+</body>
+</html>
